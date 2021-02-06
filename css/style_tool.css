@@ -1,0 +1,382 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+.menu-bar
+{
+	background-image: linear-gradient(to right, #fff, #E8F8F5);
+}
+.nav-link
+{
+	font-size: 16px;
+	color: #17202A !important;
+	margin: 2px;
+}
+.nav-link:hover
+{
+     color: #28B463 !important;
+	border: #17A589;
+}
+.navbar-nav
+{
+	text-align: right;
+}
+.menu-bar .navbar-toggler
+{
+	padding: 0;
+	outline: none;
+	border: none;
+}
+.banner
+{
+	height: 110vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/bg_font.jpg);
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	font-size: 20px;
+	clip-path: polygon(100% 0%, 100% 77%,50% 100%,0 75%, 0 0);
+	margin-top: 20px;
+
+
+
+}
+.banner h1
+{
+	padding-top: 170px;
+	font-size: 50px;
+	letter-spacing: 6px;
+	font-weight: 600;
+	text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.banner p
+{
+ font-size: 1.3rem;
+ padding: 10px 0 20px 0;
+ color: #fff;
+
+}
+/*---------------------------mega menu-----------------*/
+.navbar .has-megamenu
+{
+	position:static!important;
+	
+}
+.navbar .megamenu
+{
+	left:5%; right:5%; width:90%; padding:20px;
+    
+}
+.navbar .megamenu a
+{
+text-decoration: none;	
+	
+	
+}
+/*--------------------Header button section------------*/
+.grid-header h2
+{
+	font-size: 1.5rem;
+	margin: 20px 0 15px 0;
+	font-weight: bold;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+.header-buttons a
+{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center; 
+}
+.header-buttons a:hover
+{
+	color: #50d1c0;
+	background: #fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+/*-------------------------------grid-header------------------------*/
+.grid-header
+{
+	width: 100%;
+	height: auto;
+	margin: 100px 0;
+	text-align: center;
+}
+.grid-header-icon
+{
+	background: #fff;
+	border: medium none;
+	padding: 15px !important;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+.grid-header-icon:hover
+{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+
+
+}
+/*-----------------------OFFER SECTION START---------------------------*/
+.service-section
+{
+	background: #f7f7f9;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+.headings{
+	margin-bottom: 50px;
+}
+.headings h2
+{
+	font-size: 1.5rem;
+	font-weight: 600;
+
+}
+.service-icon i
+{
+	color: #82E0AA;
+}
+/*-----------------------OFFER SECTION END---------------------------*/
+/*------------------------------form section---------------------*/
+.container h2
+{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  word-spacing: 4px;	
+}
+#search
+{
+   background: #E5E8E8;
+   width: 60%;
+   padding: 5px;
+   border: 2px solid #5DADE2;
+}
+#submit
+{
+	border-radius: 0px 5px 5px 0px;
+	padding: 5px;
+	background: #5DADE2;
+	border: 2px solid #5DADE2;
+	color: white;
+	margin-left: -10px;
+	cursor: pointer;
+	width: 70px;
+}
+#submit:hover
+{
+	background: #2E86C1;
+	border: #17A589;
+	transition: all 0.3s;
+	padding: 8px;
+}
+/*-------blog-post section ---------------*/
+#main-contaient
+{
+	background: #fff;
+	padding: 70px 0px;
+}
+
+#Read
+{
+	float: right;
+	padding-right: 10px
+}
+.blog-post
+{
+	background-color: #F8F9F9;
+	float: left;
+	padding: 20px;
+	font-size: 20px;
+	text-align: justify;
+}
+#main-contaient aside
+{
+	background-color: #fff;
+    margin: -4px;
+    margin-top: 4px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+
+
+
+}
+#main-contaient .badge a
+{
+	text-decoration: none;
+	font-size: 15px;
+
+}
+#left
+{
+
+	font-size: 20px;
+	text-align: justify;
+}
+#Read-more
+{
+ float: right;
+}
+/*----------------------------Recent Post Section -----------------------------*/
+#new-post
+{
+	color: #fff;
+}
+.Recent-updates:hover a
+{
+	text-decoration: none !important;
+	text-transform: none;
+	color:#566573!important;
+	background:#D6EAF8!important;
+}
+/*-----------------------------------recent post section right column image------------------------*/
+.update .img-shadow
+
+{
+ padding: 10px;
+}
+.update .wrap-service .img-hover
+{
+	transition: all 0.2s ease-in;
+
+}
+.update .wrap-service .img-hover:hover
+{
+	-webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+	       transform: scale(1.1);
+}
+/*-----------------------------------card-deck section-----------------------------------*/
+.container-card .img-shadow
+{
+
+box-shadow: 0 0 30px rgba(115, 128, 157, 0.3);
+}
+.container-card  .wrap-service .img-hover
+{
+
+ transition: all 0.2s ease-in;
+}
+.container-card .wrap-service .img-hover:hover
+{
+          -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+	       transform: scale(1.1);
+}
+/*---------------------------------------scheme content-----------------*/
+#scheme-contaient
+{
+	padding: 20px;
+	padding-top: 25px;
+
+}
+
+#scheme-img .s-img
+{
+	padding-left: 100px;
+
+
+}
+
+#scheme-contaient .airtcle
+{
+text-align: justify;
+padding-top: 25px;
+}
+#scheme-contaient .airtcle p
+{
+	font-size: 20px;
+}
+#scheme-contaient .airtcle h2
+{
+	
+	margin-top: -15px;
+}
+
+/*-----------------app banner section----------------*/
+#app-banner
+{
+background-image: linear-gradient(to right, #fff, #E8F8F5);
+padding: 50px 0 ;
+
+}
+#app-banner h1
+{
+	margin-top: 20px;
+	color: #17202A;
+
+}
+#app-banner img
+{
+	width:  150px;
+	margin: 50px 0;
+}
+/*------------------Footer section----------------------*/
+#footer
+{
+background: #fff;
+padding: 20px 10px 8px;
+}
+.footer-im
+{
+
+	margin: 30px 0;
+
+}
+#footer p
+{
+color:#17202A; 
+}
+#footer a img 
+{
+width: 30px;
+}
+
+#footer .posetion-1 a,li
+{
+	
+	list-style: none;
+	text-decoration: none;
+	color: #85C1E9;
+
+}
+#footer .col-md-2 a,li
+{
+	list-style: none;
+	text-overflow: none;
+	text-decoration: none !important;
+	
+	
+
+}
+#myBtn
+{
+	
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	color: #5DADE2;
+	background: #82E0AA;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+#myBtn:hover
+{
+	background: #3498DB;
+}	
