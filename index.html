@@ -46,24 +46,17 @@ $(document).ready(function() {
 }); // jquery end
 </script>
 	
-	<!--------------------disable right click------------------------------->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-	<script type="text/javascript">
-    $(document).ready(function() {
-        $(".disableEvent").on("contextmenu",function(){
-             alert('right click disabled');
-           return false;
-        }); 
-    });
-		
-  $(document).ready(function() {
-       $('.disableEvent').bind('cut copy paste', function (e) {
-        e.preventDefault();
-    });
-    });
-</script>
-	<!-----------------google code------------------------>
 	
+	<!-----------------google code------------------------>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BYV38THZTP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BYV38THZTP');
+</script>
 	
 </head>
 <body>
